@@ -1,0 +1,36 @@
+#section-home {
+	.row .col a {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		background-color: #72b460;
+		text-align: center;
+		color: #FFF;
+		text-decoration: none;
+		border-radius: 5px;
+
+		&:hover {
+			background-color: #91c483;
+		}
+
+		.title {
+			text-transform: uppercase;
+		font-weight: bold;
+		}
+	}
+
+	.check {
+		a {
+			background-color: #FFF !important;
+			color: #72b460 !important;
+			border: 1px solid #72b460;
+		}
+
+		&:hover {
+			a {
+				color: #91c483 !important;
+				border: 1px solid #91c483;
+			}
+		}
+	}
+}

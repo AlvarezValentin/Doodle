@@ -1,0 +1,12 @@
+#section-panier {
+	
+	table {
+		tr {
+			td {
+				&:last-child {
+					width: 65px;
+				}
+			}
+		}
+	}
+}

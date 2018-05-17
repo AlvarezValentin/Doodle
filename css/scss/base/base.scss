@@ -1,0 +1,28 @@
+ul {
+	list-style-type: none;
+}
+
+.header-main {
+	display: flex;
+	justify-content: space-between;
+
+	> div {
+		flex-basis: 100%
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.right {
+		float: right;
+	}
+}
+
+table {
+	tr {
+		td {
+			vertical-align: middle !important;
+		}
+	}
+}
